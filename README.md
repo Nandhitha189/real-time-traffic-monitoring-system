@@ -18,7 +18,12 @@ This project is a real-time traffic monitoring system using an ESP32 client and 
 - UDP Protocol: Sends lightweight real-time packets
 - Python Server: Receives, aggregates, and analyzes traffic data
 - Analytics Logic: Detects congestion, overload, and throughput
+  - Lane-wise congestion detection
+  - Most congested lane identification
+  - Intersection overload detection
+  - Throughput monitoring (packets/sec)
 
+    
 ## Key Highlights
 - Real-time IoT communication using UDP
 - Combines embedded systems with server-side analytics

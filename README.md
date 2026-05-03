@@ -13,6 +13,18 @@ This project is a real-time traffic monitoring system using an ESP32 client and 
 - Most congested lane identification
 - Throughput calculation in packets per second
 
+## System Architecture
+- ESP32 Client: Simulates lane-wise vehicle count data
+- UDP Protocol: Sends lightweight real-time packets
+- Python Server: Receives, aggregates, and analyzes traffic data
+- Analytics Logic: Detects congestion, overload, and throughput
+
+## Key Highlights
+- Real-time IoT communication using UDP
+- Combines embedded systems with server-side analytics
+- Demonstrates smart city traffic monitoring logic
+- Includes packet throughput measurement
+
 ## Tech Stack
 - ESP32
 - Arduino C/C++
